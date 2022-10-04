@@ -15,7 +15,7 @@ icon.onclick= function(){
     }
 }
 
-const Service = document.getElementById("service");
+var Service = document.getElementById("service");
 
 Service.addEventListener("click",
     function(){
