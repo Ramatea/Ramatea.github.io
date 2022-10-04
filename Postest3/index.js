@@ -3,6 +3,13 @@ function myFunction(){
     alert("Under Maintenance!")
 }
 
+var Service = document.getElementById("service");
+
+Service.addEventListener("click",
+    function(){
+        alert("Under Maintanance!!")
+    }
+)
 
 var icon= document.getElementById("icon");
 
@@ -14,11 +21,3 @@ icon.onclick= function(){
         icon.src= "gambar/moon1.png";
     }
 }
-
-var Service = document.getElementById("service");
-
-Service.addEventListener("click",
-    function(){
-        alert("Under Maintanance!!")
-    }
-)
