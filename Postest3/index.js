@@ -21,3 +21,4 @@ icon.onclick= function(){
     }else{
         icon.src= "gambar/moon1.png";
 }
+}
